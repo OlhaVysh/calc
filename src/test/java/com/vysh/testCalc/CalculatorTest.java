@@ -5,9 +5,7 @@ import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-/**
- * Created by Olhaicecharry on 29.10.2016.
- */
+
 public class CalculatorTest {
 
     private static Calculator calculator;
@@ -16,6 +14,7 @@ public class CalculatorTest {
     public static void setUp() {
         calculator = new Calculator();
     }
+
 
     @Test
     public void addTest() {
